@@ -5,7 +5,7 @@ print("# include __init__.py in mspack folder to indicate that it is a package d
 print()
 from mspack import msmath
 from mspack import msstring
-#from mspack import *
+#from mspack import * # add __all__ = ["msmath", "msstring"] in __init__.py
 
 print("# from mspack import msmath")
 print("# from mspack import mstring")
