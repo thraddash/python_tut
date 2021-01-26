@@ -1,0 +1,16 @@
+2021-01-25 22:26:16,942:__main__:Tried to divide by zero
+2021-01-25 22:26:59,530:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "./test.py", line 28, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2021-01-25 22:30:33,851:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "./test.py", line 31, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2021-01-25 22:32:23,311:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "./test.py", line 32, in divide
+    result = x / y
+ZeroDivisionError: division by zero
