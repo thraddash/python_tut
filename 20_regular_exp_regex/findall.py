@@ -9,3 +9,18 @@ date_pattern = re.compile(r'\d+/[a-zA-Z]+/\d{4}')
 
 result = date_pattern.findall(date_data)
 print(result)
+print("##########################################")
+regex = "^13"
+print(date_data)
+x = re.findall(regex, date_data)
+if x:
+    print("string starts with 13")
+else:
+    print("string does not start with 13")
+
+regex = "fail$"
+x = re.findall(regex, date_data)
+if x:
+    print("string ends with 'fail'")
+else:
+    print("string does not end with 'fail'")

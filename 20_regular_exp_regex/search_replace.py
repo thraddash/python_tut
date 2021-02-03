@@ -18,3 +18,13 @@ print("Before: ", date_data)
 date_modify = date_pattern.sub(r'\3-\2-\1', date_data)
 
 print("After: ", date_modify)
+
+print("######### re.search(regex, date_data) regex = \"movie\" ###############")
+regex = "movie"
+res = re.search(regex, date_data)
+print("### res.span() #######")
+print(res.span())
+print("### res.start() #######")
+print(res.start())
+print("### res.end() #######")
+print(res.end())
