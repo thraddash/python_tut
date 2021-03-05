@@ -1,0 +1,25 @@
+f1 = 'foo.txt'
+f2 = 'foo.bar.txt'
+f3 = 'Dockerfile'
+import os.path
+os.path.splitext(f1)
+os.path.splitext(f2)
+os.path.splitext(f3)
+
+def to_extension(s):
+   _, _, ext = s.rpartition('.')
+   return ext
+   
+to_extension(f1)
+to_extension(f2)
+to_extension(f3)    
+
+# rpartition 
+s = 'hello world'
+s.partition('.')
+s.partition(' ')
+
+s = 'hello world !'
+s.rpartition(' ')
+s.partition(' ')
+
